@@ -23,7 +23,7 @@ doi.org/10.1016/j.adapen.2021.100009
 
 The IESA-NS model is a cost-optimization model, formulated as a linear problem (LP), that, in short, optimizes the long term investment planning and short term operation of the NSR energy system. The model can optimize multiple periods simultaneously (and therefore can be used to analyse single year optimization scenarios or transition pathways towards 2050), accounts for all the national GHG emissions and includes a thorough representation of all the sectors of the energy system.
 
-![image](https://user-images.githubusercontent.com/95577314/145430378-82fb3f50-2316-4b9d-8699-764598fe00ad.png)
+![1](https://user-images.githubusercontent.com/95577314/145431616-bc39c033-528e-4ad3-b12f-c6d99a7c84cb.PNG)
 
 there are mainly 6 different required inputs: activity demands, driven by macro-economic data; technology data in order to create the technology portfolio; available potentials of multiple resources and technologies; primary energy prices; national mitigation targets and specific technology bans; and finally data for the European power system, which is also endogenously represented in the system.
 
@@ -35,7 +35,7 @@ The optimization process provides a plethora of direct results, like the optimal
 
 As mentioned, the IESA-NS model is defined by activities and technologies. The activities are exogenous parameters, linked to macro-economic data and estimations, while the technologies are the tools that the model has to satisfy these activities.
 
- ![image](https://user-images.githubusercontent.com/95577314/145430540-74d548f4-6292-4bce-a748-3680aea511d0.png)
+![2](https://user-images.githubusercontent.com/95577314/145431633-2a9a54be-5393-430a-b601-c8959538e17e.PNG)
  
  There are different activities that are part of each country of the NSR in the IESA-NS model. The driver activities are the exogenous demand volumes corresponding to the residential, services, agriculture, industry and transport sector, together with aggregated emissions not fully contained in the energy system (and modelled with MACC curves). The model, with these demand volumes, decides which of the available technologies should be used to satisfy these demands. The use of technologies entails (sometimes) direct CO2 emissions, and certain energy requirements (either primary energy or processed energy). This processed energy has to be provided by endogenous energy activities, and the model has also to select which process is optimal to do so. For example: if there is an exogenous transport demand, and the model decides to satisfy it with an electric car, there will be an endogenous demand for electricity to power this car. Therefore, the model has to decide which process is optimal in order to supply this electricity.
  
