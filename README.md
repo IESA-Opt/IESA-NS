@@ -2,7 +2,7 @@
 
 IESA-NS (Integrated Energy System Analysis for the North Sea region) is an open model developed within the IESA-Opt framework. The IESA-NS model covers seven North Sea countries (Belgium, Denmark, Germany, the Netherlands, Norway, Sweden and the United Kingdom), the offshore geographical representation on the IESA-NS model is modular, so the user can represent the offshore part of the region with as many different offshore nodes as required.
 
-This repository is still under construction. If you have any question please contact R.Martinez.Gordon@rug.nl
+This repository is still under construction. If you have any question or you want to use the model please contact R.Martinez.Gordon@rug.nl
 
 The IESA-NS model has been part of the following peer reviewed publications:
 
